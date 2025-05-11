@@ -23,19 +23,13 @@ const GoogleLogo = () => (
     <path fill="none" d="M1 1h22v22H1z" />
   </svg>
 
- 
-const AppLogo = () => (
-    <div className="w-20 h-20 md:w-24 md:h-24 bg-gradient-to-b from-orange-400 to-orange-600 rounded-full flex flex-col items-center justify-center mx-auto mb-6 shadow-md">
-        <div className="w-12 h-1 bg-white my-0.5 rounded-full opacity-90"></div>
-        <div className="w-14 h-1 bg-white my-0.5 rounded-full opacity-80"></div>
-        <div className="w-16 h-1 bg-white my-0.5 rounded-full opacity-70"></div>
-        <div className="w-14 h-1 bg-white my-0.5 rounded-full opacity-60"></div>
-        <div className="w-12 h-1 bg-white my-0.5 rounded-full opacity-50"></div>
-    </div>
-);
+
+
+// ... GoogleLogo component ends ...
+); // <--- THIS SEMICOLON is likely the issue if it's misplaced after the GoogleLogo
 
 // --- App Logo (Labs 99) ---
-const AppLogo = () => (
+const AppLogo = () => ( // Line 29
   <div className="mx-auto mb-8 flex justify-center p-2 bg-gray-700 rounded-md"> {/* Example: Added padding, dark gray background, and rounded corners */}
     <img
       src={appCompanyLogo}
