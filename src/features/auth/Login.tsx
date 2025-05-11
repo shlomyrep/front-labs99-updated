@@ -18,7 +18,7 @@ const GOOGLE_CLIENT_ID = '533335327172-4p066sspjejqp0ai9rtor4gtmlg4pp61.apps.goo
 //         <path fill="none" d="M1 1h22v22H1z" />
 //     </svg>
 // );
-
+ 
 const AppLogo = () => (
     <div className="w-20 h-20 md:w-24 md:h-24 bg-gradient-to-b from-orange-400 to-orange-600 rounded-full flex flex-col items-center justify-center mx-auto mb-6 shadow-md">
         <div className="w-12 h-1 bg-white my-0.5 rounded-full opacity-90"></div>
