@@ -2,7 +2,7 @@ import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 import Login from '../features/auth/Login';
 import Dashboard from '../pages/Dashboard';
 import PrivateRoute from './PrivateRoute';
-import AppDetailPage from "../pages/AppDetailPage.tsx";
+// import AppDetailPage from "../pages/AppDetailPage.tsx";
 
 export default function AppRouter() {
     return (
@@ -17,14 +17,14 @@ export default function AppRouter() {
                         </PrivateRoute>
                     }
                 />
-                <Route
-                    path="/app/:id" // The :id part is a URL parameter
-                    element={
-                        <PrivateRoute>
-                            <AppDetailPage/>
-                        </PrivateRoute>
-                    }
-                />
+                {/*<Route*/}
+                {/*    path="/app/:id" // The :id part is a URL parameter*/}
+                {/*    element={*/}
+                {/*        <PrivateRoute>*/}
+                {/*            <AppDetailPage/>*/}
+                {/*        </PrivateRoute>*/}
+                {/*    }*/}
+                {/*/>*/}
                 <Route path="*" element={<Navigate to="/login" replace/>}/>
 
             </Routes>
