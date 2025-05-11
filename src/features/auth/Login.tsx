@@ -74,21 +74,21 @@ function LoginView() {
                     <h2 className="text-2xl md:text-3xl font-bold text-slate-800 mb-8">Just Build Stuff.</h2>
                     <ul className="space-y-5">
                         <li className="flex items-start space-x-3">
-                            <SparklesIcon className="h-6 w-6 text-orange-500 flex-shrink-0 mt-0.5" />
+                            <SparklesIcon className="h-6 w-6 text-blue-500 flex-shrink-0 mt-0.5" />
                             <div>
                                 <h3 className="font-semibold text-slate-700">AI generated apps</h3>
                                 <p className="text-slate-500 text-sm">Leverage cutting-edge AI to bootstrap your projects.</p>
                             </div>
                         </li>
                         <li className="flex items-start space-x-3">
-                            <AdjustmentsHorizontalIcon className="h-6 w-6 text-orange-500 flex-shrink-0 mt-0.5" />
+                            <AdjustmentsHorizontalIcon className="h-6 w-6 text-blue-500 flex-shrink-0 mt-0.5" />
                             <div>
                                 <h3 className="font-semibold text-slate-700">Easy to customize</h3>
                                 <p className="text-slate-500 text-sm">Tailor your applications to fit your exact needs.</p>
                             </div>
                         </li>
                         <li className="flex items-start space-x-3">
-                            <RocketLaunchIcon className="h-6 w-6 text-orange-500 flex-shrink-0 mt-0.5" />
+                            <RocketLaunchIcon className="h-6 w-6 text-blue-500 flex-shrink-0 mt-0.5" />
                             <div>
                                 <h3 className="font-semibold text-slate-700">Seamless deployment</h3>
                                 <p className="text-slate-500 text-sm">Get your apps live with minimal hassle.</p>
