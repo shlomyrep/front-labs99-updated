@@ -8,8 +8,7 @@ export default function Dashboard() {
             <Sidebar />
             <main className="ml-16 p-8 w-full">
                 <PromptBox />
-                <h2 className="text-lg font-semibold mb-4">My Recent Apps</h2>
-                <RecentAppsList />
+                <RecentAppsList count={8} />
             </main>
         </div>
     );
